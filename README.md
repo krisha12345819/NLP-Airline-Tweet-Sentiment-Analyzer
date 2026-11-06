@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="screenshots/banner.png" alt="Airline Tweet Sentiment Analyzer" width="100%"/>
+<img src="plots/banner.png" alt="Airline Tweet Sentiment Analyzer" width="100%"/>
 
 # ✈️ Airline Tweet Sentiment Analyzer
 
@@ -32,7 +32,7 @@
 
 ## 📑 Table of Contents
 
-[Overview](#-overview) · [Live Demo](#-live-demo--app-screenshots) · [Dataset](#-dataset) · [Pipeline](#-pipeline-summary) · [Results](#-results-comparison) · [Topics Explained](#-topics-used--explained) · [Analysis Gallery](#-analysis-gallery) · [Structure](#-repository-structure) · [Run Locally](#-how-to-run-locally) · [Video](#-video) · [Tools & Versions](#-tools--versions) · [What I Learned](#-what-i-learned) · [Author](#-author)
+[Overview](#-overview) · [Live Demo](#-live-demo--app-plots) · [Dataset](#-dataset) · [Pipeline](#-pipeline-summary) · [Results](#-results-comparison) · [Topics Explained](#-topics-used--explained) · [Analysis Gallery](#-analysis-gallery) · [Structure](#-repository-structure) · [Run Locally](#-how-to-run-locally) · [Video](#-video) · [Tools & Versions](#-tools--versions) · [What I Learned](#-what-i-learned) · [Author](#-author)
 
 ---
 
@@ -54,7 +54,7 @@ Three NLP approaches are built and **measured on the same stratified test set**:
 
 ---
 
-## 🖥️ Live Demo & App Screenshots
+## 🖥️ Live Demo & App plots
 
 > 🔗 **Live URL:** [YOUR_STREAMLIT_URL](YOUR_STREAMLIT_URL)
 
@@ -62,19 +62,19 @@ The app lets you type a tweet, choose an approach (**Heuristic / VADER / ML mode
 
 | 1 · Start screen | 2 · Positive prediction |
 |:---:|:---:|
-| ![Start screen](screenshots/app_01_start_screen.png) | ![Positive](screenshots/app_02_positive_prediction.png) |
+| ![Start screen](plots/app_01_start_screen.png) | ![Positive](plots/app_02_positive_prediction.png) |
 | *Examples in the sidebar, approach selector, text area* | *Positive tweet scored by the ML model* |
 
 | 3 · Negative prediction | 4 · Probability chart |
 |:---:|:---:|
-| ![Negative](screenshots/app_03_negative_prediction.png) | ![Probabilities](screenshots/app_04_probability_chart.png) |
+| ![Negative](plots/app_03_negative_prediction.png) | ![Probabilities](plots/app_04_probability_chart.png) |
 | *Negation + complaint → negative* | *Class probabilities from `predict_proba`* |
 
 <div align="center">
 
 | 5 · POS-tag expander |
 |:---:|
-| <img src="screenshots/app_05_pos_expander.png" width="60%" alt="POS expander"/> |
+| <img src="plots/app_05_pos_expander.png" width="60%" alt="POS expander"/> |
 | *Part-of-speech tags of the entered tweet via NLTK* |
 
 </div>
@@ -109,7 +109,7 @@ The app lets you type a tweet, choose an approach (**Heuristic / VADER / ML mode
 ## 🧭 Pipeline Summary
 
 <div align="center">
-<img src="screenshots/pipeline.png" alt="NLP pipeline" width="100%"/>
+<img src="plots/pipeline.png" alt="NLP pipeline" width="100%"/>
 </div>
 
 | # | Task | What was done |
@@ -139,7 +139,7 @@ The app lets you type a tweet, choose an approach (**Heuristic / VADER / ML mode
 | 🤖 Word2Vec | CBoW averaged vectors + Logistic Regression | 0.701 | 0.657 |
 
 <div align="center">
-<img src="screenshots/10_macro_f1_all_approaches.png" alt="Macro-F1 of all approaches" width="70%"/>
+<img src="plots/10_macro_f1_all_approaches.png" alt="Macro-F1 of all approaches" width="70%"/>
 </div>
 
 ### Feature / classifier combinations (Tasks 6.3 and 7.5)
@@ -225,10 +225,10 @@ NLTK's `pos_tag` uses a trained **averaged-perceptron** model. Context decides t
 
 | Sentiment distribution | Sentiment by airline |
 |:---:|:---:|
-| ![Sentiment distribution](screenshots/01_sentiment_class_distribution.png) | ![By airline](screenshots/02_sentiment_by_airline.png) |
+| ![Sentiment distribution](plots/01_sentiment_class_distribution.png) | ![By airline](plots/02_sentiment_by_airline.png) |
 
 <div align="center">
-<img src="screenshots/03_tweet_length_histogram.png" alt="Tweet length" width="55%"/>
+<img src="plots/03_tweet_length_histogram.png" alt="Tweet length" width="55%"/>
 </div>
 
 </details>
@@ -239,7 +239,7 @@ NLTK's `pos_tag` uses a trained **averaged-perceptron** model. Context decides t
 
 | Top 20 words | Negative vs positive words |
 |:---:|:---:|
-| ![Top 20](screenshots/04_top20_words.png) | ![Neg vs pos](screenshots/05_top15_negative_vs_positive_words.png) |
+| ![Top 20](plots/04_top20_words.png) | ![Neg vs pos](plots/05_top15_negative_vs_positive_words.png) |
 
 </details>
 
@@ -249,7 +249,7 @@ NLTK's `pos_tag` uses a trained **averaged-perceptron** model. Context decides t
 
 | Heuristic vs VADER confusion matrices | Feature-size experiment |
 |:---:|:---:|
-| ![Confusion matrices](screenshots/06_heuristic_vs_vader_confusion_matrices.png) | ![Feature size](screenshots/07_feature_size_experiment.png) |
+| ![Confusion matrices](plots/06_heuristic_vs_vader_confusion_matrices.png) | ![Feature size](plots/07_feature_size_experiment.png) |
 
 </details>
 
@@ -259,7 +259,7 @@ NLTK's `pos_tag` uses a trained **averaged-perceptron** model. Context decides t
 
 | Word2Vec PCA (60 words) | Baseline confusion matrix |
 |:---:|:---:|
-| ![PCA](screenshots/08_word2vec_pca_60_words.png) | ![Baseline CM](screenshots/09_baseline_confusion_matrix.png) |
+| ![PCA](plots/08_word2vec_pca_60_words.png) | ![Baseline CM](plots/09_baseline_confusion_matrix.png) |
 
 </details>
 
@@ -268,7 +268,7 @@ NLTK's `pos_tag` uses a trained **averaged-perceptron** model. Context decides t
 <br>
 
 <div align="center">
-<img src="screenshots/11_pos_distribution_by_sentiment.png" alt="POS distribution" width="60%"/>
+<img src="plots/11_pos_distribution_by_sentiment.png" alt="POS distribution" width="60%"/>
 </div>
 
 </details>
@@ -286,7 +286,7 @@ airline-tweet-sentiment/
 ├── 🧠 sentiment_model.joblib   # TF-IDF (1,2) + Logistic Regression pipeline
 ├── 📦 requirements.txt         # Pinned versions
 ├── 📖 README.md
-└── 🖼️ screenshots/             # App screenshots + analysis plots
+└── 🖼️ plots/             # App plots + analysis plots
 ```
 
 ---
