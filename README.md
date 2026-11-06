@@ -4,7 +4,7 @@
 
 # ✈️ Airline Tweet Sentiment Analyzer
 
-**NLP Practical Report 1 (PR 1) · Red & White Skill Education**
+**NLP Practical Report 1 (PR 1)**
 
 ### 🚀 **LIVE APP → [YOUR_STREAMLIT_URL](YOUR_STREAMLIT_URL)**
 
@@ -56,28 +56,10 @@ Three NLP approaches are built and **measured on the same stratified test set**:
 
 ## 🖥️ Live Demo & App plots
 
-> 🔗 **Live URL:** [YOUR_STREAMLIT_URL](YOUR_STREAMLIT_URL)
+> 🔗 **Live URL:** [https://nlp-airline-tweet-sentiment-analyzer.streamlit.app/](https://nlp-airline-tweet-sentiment-analyzer.streamlit.app/)
 
 The app lets you type a tweet, choose an approach (**Heuristic / VADER / ML model**) and press **Predict**.
-
-| 1 · Start screen | 2 · Positive prediction |
-|:---:|:---:|
-| ![Start screen](plots/app_01_start_screen.png) | ![Positive](plots/app_02_positive_prediction.png) |
-| *Examples in the sidebar, approach selector, text area* | *Positive tweet scored by the ML model* |
-
-| 3 · Negative prediction | 4 · Probability chart |
-|:---:|:---:|
-| ![Negative](plots/app_03_negative_prediction.png) | ![Probabilities](plots/app_04_probability_chart.png) |
-| *Negation + complaint → negative* | *Class probabilities from `predict_proba`* |
-
-<div align="center">
-
-| 5 · POS-tag expander |
-|:---:|
-| <img src="plots/app_05_pos_expander.png" width="60%" alt="POS expander"/> |
-| *Part-of-speech tags of the entered tweet via NLTK* |
-
-</div>
+---
 
 **App features**
 
@@ -354,15 +336,13 @@ jupyter notebook NLP_PR1.ipynb
 
 ## 👤 Author
 
-**YOUR NAME** · GRID: `YOUR_GRID`
+**YOUR NAME** · GRID: `10771`
 NLP Practical Report 1 · Red & White Skill Education
 
-[![GitHub](https://img.shields.io/badge/GitHub-YOUR_USERNAME-181717?logo=github)](https://github.com/YOUR_USERNAME)
+[![GitHub](https://img.shields.io/badge/GitHub-KrishaAnghan-181717?logo=github)](https://github.com/krisha12345819)
 
 <div align="center">
 
 *Dataset: Twitter US Airline Sentiment, originally published by CrowdFlower (Figure Eight), via [Kaggle](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment).*
-
-*"Shaping Skills for Scaling Higher"* ⭐
 
 </div>
