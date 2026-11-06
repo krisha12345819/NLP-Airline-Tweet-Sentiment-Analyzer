@@ -6,7 +6,7 @@
 
 **NLP Practical Report 1 (PR 1)**
 
-### 🚀 **LIVE APP → [YOUR_STREAMLIT_URL](YOUR_STREAMLIT_URL)**
+### 🚀 **LIVE APP → [https://nlp-airline-tweet-sentiment-analyzer.streamlit.app/](https://nlp-airline-tweet-sentiment-analyzer.streamlit.app/)**
 
 [![Live App](https://img.shields.io/badge/🚀_Live_App-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](YOUR_STREAMLIT_URL)
 [![Video](https://img.shields.io/badge/🎥_Demo_Video-Watch-red?style=for-the-badge&logo=youtube&logoColor=white)](YOUR_VIDEO_LINK)
@@ -337,7 +337,7 @@ jupyter notebook NLP_PR1.ipynb
 ## 👤 Author
 
 **YOUR NAME** · GRID: `10771`
-NLP Practical Report 1 · Red & White Skill Education
+NLP Practical Report 1 
 
 [![GitHub](https://img.shields.io/badge/GitHub-KrishaAnghan-181717?logo=github)](https://github.com/krisha12345819)
 
