@@ -8,8 +8,8 @@
 
 ### 🚀 **LIVE APP → [https://nlp-airline-tweet-sentiment-analyzer.streamlit.app/](https://nlp-airline-tweet-sentiment-analyzer.streamlit.app/)**
 
-[![Live App](https://img.shields.io/badge/🚀_Live_App-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](YOUR_STREAMLIT_URL)
-[![Video](https://img.shields.io/badge/🎥_Demo_Video-Watch-red?style=for-the-badge&logo=youtube&logoColor=white)](YOUR_VIDEO_LINK)
+[![Live App](https://img.shields.io/badge/🚀_Live_App-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://nlp-airline-tweet-sentiment-analyzer.streamlit.app/)
+[![Video](https://img.shields.io/badge/🎥_Demo_Video-Watch-red?style=for-the-badge&logo=youtube&logoColor=white)](https://drive.google.com/file/d/1p8bvbwDIlu4nQFExs1K8h-Fo_n5Tul7I/view?usp=sharing)
 [![Dataset](https://img.shields.io/badge/📊_Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment)
 
 ![Python](https://img.shields.io/badge/Python-3.9+-3776AB?logo=python&logoColor=white)
@@ -24,7 +24,7 @@
 **[🌐 HTML Export](NLP_PR1.html)** ·
 **[🧠 App](app.py)** ·
 **[🧰 nlp_utils.py](nlp_utils.py)** ·
-**[🎥 Video](YOUR_VIDEO_LINK)**
+**[🎥 Video](https://drive.google.com/file/d/1p8bvbwDIlu4nQFExs1K8h-Fo_n5Tul7I/view?usp=sharing)**
 
 </div>
 
@@ -305,9 +305,9 @@ jupyter notebook NLP_PR1.ipynb
 
 ## 🎥 Video
 
-[![Watch the demo](https://img.shields.io/badge/▶_Watch_Video-Face_+_Screen_Walkthrough-red?style=for-the-badge&logo=youtube)](YOUR_VIDEO_LINK)
+[![Watch the demo](https://img.shields.io/badge/▶_Watch_Video-Face_+_Screen_Walkthrough-red?style=for-the-badge&logo=youtube)](https://drive.google.com/file/d/1p8bvbwDIlu4nQFExs1K8h-Fo_n5Tul7I/view?usp=sharing)
 
-> `NLP_PR1_YourName_GRID.mp4` · 5–10 min · face (picture-in-picture) + screen · covers all 8 tasks and a **live test of the deployed app** with new inputs including a negation example.
+> `NLP_PR1_KrishaAnghan_10771.mp4` · 5–10 min · face (picture-in-picture) + screen · covers all 8 tasks and a **live test of the deployed app** with new inputs including a negation example.
 
 ---
 
